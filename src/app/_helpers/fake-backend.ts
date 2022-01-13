@@ -12,7 +12,7 @@ import { Observable, of, throwError } from 'rxjs';
 import { delay, mergeMap, materialize, dematerialize } from 'rxjs/operators';
 
 // array in local storage for users
-const usersKey = 'angular-10-jwt-refresh-token-users';
+const usersKey = 'angular-jwt-refresh-token-users';
 const users = JSON.parse(localStorage.getItem('usersKey') || '{}');
 
 // add test user and save if users array is empty
